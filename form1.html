@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Step 1</title>
+    <style>
+        body{font-family:Arial; background: white; display:flex; justify-content:center; padding:30px;}
+        form{background:white; padding:25px; border-radius:12px; width:450px;}
+        fieldset{border:2px solid #ff6b35; border-radius:8px; padding:20px;}
+        legend{font-weight:bold; color:#ff6b35;}
+        input{width:95%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;}
+        .btn{padding:10px 20px; border:none; border-radius:6px; color:white; text-decoration:none; display:inline-block;}
+        .next{background:#ff6b35; float:right;} .back{background:grey;}
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Step 1 of 3 - Your Details</legend>
+            <label>Full Name:</label><br>
+            <input type="text" placeholder="John Doe" required><br>
+            <label>Age:</label><br>
+            <input type="number" placeholder="18"><br>
+            <label>Email:</label><br>
+            <input type="email" placeholder="email@example.com" required><br><br>
+            <a href="../index.html" class="btn back">Back</a>
+            <a href="form2.html" class="btn next">Next</a>
+        </fieldset>
+    </form>
+</body>
+</html>
